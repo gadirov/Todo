@@ -3,6 +3,7 @@ export interface IItem{
     text:string,
     completed: boolean
 }
+
 export interface IHandlerFuncs{
     deleteHandler: (id: number) => void,
     editTodoHandler: (item: IItem) => void
